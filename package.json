@@ -11,6 +11,6 @@
     "test": "echo 'test'",
     "start": "node server.js"
   },
-  "author": "Thomas Lam",
+  "author": "Salah Eddin Alshaal",
   "license": "ISC"
 }
