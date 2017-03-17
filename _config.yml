@@ -1,0 +1,18 @@
+name: Thomas Lam
+description: Math ∧ Programming ∧ Life
+meta_description: "Your New Jekyll Site, Blogging about stuffs"
+gems: [jekyll-paginate]
+
+markdown: redcarpet
+highlighter: rouge
+logo: false
+paginate: 15
+paginate_path: '/blog/page:num'
+baseurl: /
+domain_name: 'http://yourblog-domain.com'
+google_analytics: 'UA-XXXXXXXX-X'
+disqus_shortname: 'thomaslam'
+
+# Details for the RSS feed generator
+url:            'blog url'
+author:         'Thomas Lam'

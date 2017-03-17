@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <description>Math ∧ Programming ∧ Life</description>
+    <link>blog url//</link>
+    <atom:link href="blog url//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 24 Feb 2016 22:49:30 -0500</pubDate>
+    <lastBuildDate>Wed, 24 Feb 2016 22:49:30 -0500</lastBuildDate>
+    <generator>Jekyll v3.1.1</generator>
+    
+      <item>
+        <title>My first technical internship interview experience</title>
+        <description>&lt;p&gt;I am dumb. So, so, dumb.&lt;/p&gt;
+
+&lt;p&gt;That was my conclusion after I ended the phone call with my interviewer, closed my browser tab that had the URL for the live coding we did after wrestling for (over) 45 minutes on a single interview problem that shouldn&amp;#39;t have taken more than 10. My head was still reeling from what just happened. I was still recovering from (one of) the most embarrassing 45 minutes of my life. 15 minutes later, an email. &lt;/p&gt;
+
+&lt;p&gt;&amp;quot;Thank you for your interest in [company]... We do not feel... &amp;quot;&lt;/p&gt;
+
+&lt;p&gt;Wow, that was fast.&lt;/p&gt;
+
+&lt;p&gt;To be fair, the interviewer did mention that in a few minutes the recruiter would reach out to me with an email. (Or maybe that was a polite rejection on the spot without making it seem like so?)&lt;/p&gt;
+
+&lt;p&gt;And that was how my first technical interview ended. Horribly.&lt;/p&gt;
+
+&lt;p&gt;There were no hard data structure or algorithm questions involved. No brain teasers or anything. A straight up coding challenge that was straightforward and had an straightforward answer. How easy was it? If you know basic Java and array, then you should be able to answer this question. 2 semesters of data structures and algorithms yet I couldn&amp;#39;t solve it.&lt;/p&gt;
+
+&lt;p&gt;My ego was bruised.&lt;/p&gt;
+
+&lt;p&gt;Looking back, I would like to think that the heat of the moment got to me. But in fact I don&amp;#39;t think it did. I was very calm and I talked more than usual, which is good since I&amp;#39;m naturally shy. In fact, I overcompensated by saying random things that I thought when attempting to solve the problem. I did think and have time to think long and hard about the problem. Yet the obviousness of the answer escaped me. Maybe I am overestimating how easy the question was? Usually questions that elicit responses from me like &amp;quot;Wow, I did not think of approaching the problem from that angle before&amp;quot; are to me the interesting and the real hard ones. But the solution, after the interviewer explained to me after my unsuccessful attempts, was underwhelmingly easy. I facepalmed myself (in my head of course) the moment I understood how the solution works.&lt;/p&gt;
+
+&lt;p&gt;What sucked even more was that I saw the question on Glassdoor a few hours before my interview yet I did not try solving it as a practice problem for my interview.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.stack.imgur.com/jiFfM.jpg&quot; alt=&quot;Double facepalm&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;In short, what I took away from this experience was: more practice with interview questions. I haven&amp;#39;t used the Cracking the Coding Interview book that I bought a year ago in some substantive manner, truth be told. My class homework assignments and projects always have a way of keeping me busy, leaving me with relatively few hours of sleep let alone an hour for practicing interview questions every single day. Also, I need my daily dose of facebook and youtube usage as most procrastinating college students do. &lt;/p&gt;
+
+&lt;p&gt;And I had a midterm and a paper and a project at the time, which naturally occupied my thoughts and perhaps when I should have been preparing for the interview weeks before. Yes, classwork is more important and that I should prioritize them. And I did. But I want the internship... *cries&lt;/p&gt;
+
+&lt;p&gt;I could go on and on about how I manage my time badly and that I should have been more efficient when doing my homework assignment (no youtube and facebook breaks after every 15 minutes or so; read faster; do math problems faster; etc.). &lt;/p&gt;
+
+&lt;p&gt;But I guess looking back, I shouldn&amp;#39;t have been so hard on myself. My college basically requires a lot of my attention and effort (and given my relatively challenging coursework I&amp;#39;m handling this semester and I think this is the hardest I&amp;#39;ve worked so far since high school) so I&amp;#39;m just taking it hard on myself for something that I can fix right now. I&amp;#39;m glad I went through this experience as a sophomore so that I&amp;#39;m more prepared when job hunting season in senior year rolls around. I still have time to apply for internships to other companies so I still get chances. Right?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://cdn.meme.am/instances/16399729.jpg&quot; alt=&quot;GAHHH&quot;&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 22 Nov 2015 18:05:00 -0500</pubDate>
+        <link>blog url//programming/internship/career/2015/11/22/my-first-technical-interview.html</link>
+        <guid isPermaLink="true">blog url//programming/internship/career/2015/11/22/my-first-technical-interview.html</guid>
+        
+        
+        <category>programming</category>
+        
+        <category>internship</category>
+        
+        <category>career</category>
+        
+      </item>
+    
+      <item>
+        <title>Haskell - functional fun</title>
+        <description>&lt;p&gt;Ok I need a break from all the headaches that come with learning Vim and tmux. I think I&amp;#39;m getting better at it though. We&amp;#39;ll see.&lt;/p&gt;
+
+&lt;p&gt;So I decided to learn Haskell. Because, hey, why not?&lt;/p&gt;
+
+&lt;p&gt;First off, I&amp;#39;m glad that I encountered some functional stuff from Javascript. I was going to write about some more Javascript concepts that I find interesting but frankly, many blog posts have done such a great job covering those topics anyway. &lt;/p&gt;
+
+&lt;p&gt;Not that there are dozens of good ones about Haskell already on the interweb. This post serves more as a refresher of concepts I&amp;#39;ve learned about Haskell so far. If any Haskell pros are reading this (if there are even any readers at all) and find any thing I said about Haskell errorneous, please help me understand it better through the comment section below (please comment anything, I will read them lol).&lt;/p&gt;
+
+&lt;p&gt;Ok, let&amp;#39;s dive in.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;#39;s start off with how powerful and elegent Haskell can be. For those starting out with data structures, how many lines of code did you have to write for quick sort? Let&amp;#39;s see with ordinary object oriented programming languages like Java for example, you have to create an auxilary method like swap for swapping operation. That takes 3 lines. You have to keep track of indexes within a while loop.. Arg too many details. At least that&amp;#39;s what I imagine a persona of Haskell would say (think of cool lazy beanie wearing hipster coder). Here&amp;#39;s quicksort in &lt;strong&gt;6 lines&lt;/strong&gt; in Haskell: &lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-haskell&quot; data-lang=&quot;haskell&quot;&gt;&lt;span class=&quot;n&quot;&gt;quicksort&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;::&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;Sort&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;quicksort&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;[]&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;quicksort&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; 
+  &lt;span class=&quot;kr&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;smallerSorted&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;quicksort&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;xs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;biggerSorted&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;quicksort&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;xs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+  &lt;span class=&quot;kr&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;smallerSorted&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;++&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;++&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;biggerSorted&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.wearefine.com/mingle/wp-content/uploads/2014/10/unnamed-111.gif&quot; alt=&quot;WHAAAAA???&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Ok, what is this dark magic?? (Never mind the technicality that makes this not a true quicksort - see &lt;a href=&quot;http://stackoverflow.com/questions/7717691/why-is-the-minimalist-example-haskell-quicksort-not-a-true-quicksort&quot;&gt;this SO post&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;The first line is simply an explicit function type declaration. The &amp;quot;::&amp;quot; should be read as &amp;quot;has type of&amp;quot;. The &amp;quot;a&amp;quot; variable is a &lt;strong&gt;type variable&lt;/strong&gt; meaning it can be of type Int, Integer, Float, etc. as long as the input and output of quicksort function has the same type. Which has &lt;strong&gt;class type&lt;/strong&gt; of Sort, indicated by the stuff in parens before the &amp;quot;=&amp;gt;&amp;quot;, which indicates &lt;strong&gt;class constraint&lt;/strong&gt; to either input or output types of a function type declaration. Although &lt;strong&gt;class type&lt;/strong&gt; sounds a lot like the concept of classes in OO, it&amp;#39;s actually more closely related with the concept of interface. The square brackets around &amp;quot;a&amp;quot; indicate that it is a list of the same type.&lt;/p&gt;
+
+&lt;p&gt;Ok, on to the meat of the function. In Haskell, a function allows for pattern matching for a given input so instead of having if else blocks inside method body for catching different types of inputs, you can declare different method bodies depending on what pattern the input matches. We always want the edge case pattern to be the first one the input must be matched against so hence the empty list input. Otherwise we would have infinite loop. For the second pattern, we split the input up into 2 parts: the first element and the rest. The first element is used as a partitioning element, which would dictate where the rest of the elements in xs should go. The let .. in pattern is called &lt;strong&gt;let binding&lt;/strong&gt; in Haskell. It allows expressions in &amp;quot;in&amp;quot; part to be named in the &amp;quot;let&amp;quot; body. Obviously, the smallerSorted is just a recursive call to quicksort on a list that contains every element less than or equal to x, the partitioning element. The list comprehension is what gives us that list without us having to explicitly do all the grunt work of comparing and pushing to the appropriate list (think of Python list comprehension - same thing). Finally, the expression in the final line concatenates all the recursive calles into final sorted list. Mmmm, syntactic sugar...&lt;/p&gt;
+
+&lt;p&gt;Of course, this is only the tip of the iceberg for Haskell. There are many other crazy concepts like &lt;strong&gt;curried functions&lt;/strong&gt;, &lt;strong&gt;partial functions&lt;/strong&gt;, etc. There are many good resources for those. I hope for those non-Haskell programmers reading this, you should definitely pick up Haskell regardless of whether you would use it in your programming career or not. It would definitely blow your mind. &lt;/p&gt;
+</description>
+        <pubDate>Sun, 18 Oct 2015 12:30:00 -0400</pubDate>
+        <link>blog url//haskell/programming/2015/10/18/Haskell-functional-fun.html</link>
+        <guid isPermaLink="true">blog url//haskell/programming/2015/10/18/Haskell-functional-fun.html</guid>
+        
+        
+        <category>haskell</category>
+        
+        <category>programming</category>
+        
+      </item>
+    
+      <item>
+        <title>My struggle with Vim</title>
+        <description>&lt;p&gt;Abandoning Sublime Text for another new editor is hard. Like really freaking hard.&lt;/p&gt;
+
+&lt;p&gt;After almost a day spent installing and configuring vim, tmux and zsh on my linux and tweaking dotfiles for my main Mac development machine, I don&amp;#39;t know whether I have spent my fall break wisely. I have a hundred gazillion things going on that I want to accomplish during this short break: finishing that CS web page for my CS club; studying for my CS 301 mid-term; finishing online UC Berkeley&amp;#39;s videos on operating systems as well as tutorials on topics like ReactJS, Ionic framework, etc. But here I am, on a Sunday (I have Monday off but still), besides from an internship application that reads more like a college application all over again, I barely accomplish what I consider as productive work that I&amp;#39;ve listed above. And besides I don&amp;#39;t use Vim very often anyways. Which makes me wonder the merits of learning Vimafter all.&lt;/p&gt;
+
+&lt;p&gt;Sometime during July 2015, I decided to learn Vim out of curiosity and vanity. Over several years since I started programming, I&amp;#39;ve always heard about the great debate among veteran programmers: the text editor war. After perusing dozens of opinion articles, I decided to take a deep breath and try my hand at learning Vim. Over a month or so, I got used to the Vim way of doing things. Even now, I&amp;#39;m editing this in Vim and felt kinda proud hjkl my way, dw some words, r[char] some letters. I guess modal editing isn&amp;#39;t so bad. In fact, it&amp;#39;s quite addicting actually; I&amp;#39;ve been browsing the internet with Vim commands.&lt;/p&gt;
+
+&lt;p&gt;So what exactly is the problem then? Well, to tell the truth other than some cool arcane neat tricks that I learned from this new editor, I haven&amp;#39;t actually used Vim in a substantive manner to justify my switch from Sublime Text. I still use ST for my school projects and hackathon hacks. I haven&amp;#39;t reached a point where I&amp;#39;m 100% comfortable using only Vim. And I&amp;#39;ve only recently learned about tmux which is a crucial companion to Vim apparently. I get that the whole point of Vim is to reduce friction when working with web server, database server, and text editing without the mental switch between moving your fingers on the keyboard and reaching for the mousepad (although how true is the last statement I&amp;#39;m still debating). Yes, it feels good being able to change strings in the bracket without carefully highlighting words using the mousepad (the command is ci&amp;quot; - pretty cool huh). I can finally go full screen mode without having to switch back and forth between text editing and the terminal with too much friction. Now if only the browser can somehow be tmuxed into the terminal (hmm...). And learning vim script and seeing other people&amp;#39;s dotfile setups and their differences in preference actually is kinda fun to me.  &lt;/p&gt;
+
+&lt;p&gt;I guess one of the annoyings thing about using Vim instead of a pretty UI editor like ST is the folder structure. I like being able to switch between files using the mousepad. I like to see the location that the file I&amp;#39;m editing is in relative to project root folder when I&amp;#39;m editing my code. I guess NERDTree plugin is fine. But the urge to just mouse over the folder I want and click on the file I want to edit next is too tempting. And instinctively I feel mousing over folders is much more natural than toggling NERDTree folder menu (even with handy remapping like &lt;leader&gt;ne that I use in my vimrc) and hjkl my way and then hit o or t or T in order to open a file in various manners. Also, the minimap feature in ST is really nice when I&amp;#39;m navigating a long file. I know once I mastered hjkl, I should move on to line editing and be good at w or b for faster navigation within a file. But still, dragging the mouse on the minimap to the location I want and just click on the location within the line I want to edit is way more intuitive than Vim commands I&amp;#39;ve used so far. Also autocomplete. Fine, there should be autocomplete plugins in Vim that I haven&amp;#39;t used yet so maybe this point is moot for now.&lt;/p&gt;
+
+&lt;p&gt;So what keeps me from completely abandoning my effort to learn Vim altogether and just use ST (like normal people would)? Well, I can&amp;#39;t completely deny that using Vim makes me feel powerful and feel &amp;quot;accepted&amp;quot; as a serious professional programmer like one of those &amp;quot;neck-beard&amp;quot; programmers (think Richard Stallman). Secondly, since I spent so much time learning all the basics of Vim commands already, I want to be able to use those on the daily basis other than just browsing the Internet while looking cool. I thought since I&amp;#39;ve only experimented with Vim for less than a month (I started in July but I&amp;#39;ve largely spent most of real programming task in ST) and learning Vim apparently is a never ending journey (at least Stackoverflow grandmasters would have me believe), I should give it more time.&lt;/p&gt;
+
+&lt;p&gt;Who knows, maybe one day I&amp;#39;ll be a regular Vim user and will look at other IDE and UI text editor users with derision. One day.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 11 Oct 2015 19:42:00 -0400</pubDate>
+        <link>blog url//2015/10/11/my-struggle-with-Vim.html</link>
+        <guid isPermaLink="true">blog url//2015/10/11/my-struggle-with-Vim.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Live reload with Guard and nodemon</title>
+        <description>&lt;p&gt;Any web developer knows that restarting your web server everytime you make a change in your code (either server or client side), even a change as trivial as a CSS property change, and then restarting the browser to see the change take effect is a huge time drain in development. Today I&amp;#39;m going to show you just how easy it is to set up your web project so that when you hit save on any file in your project, you can instantly see your change reflected in the browser.
+First, make sure you have &lt;a href=&quot;https://www.ruby-lang.org/en/&quot;&gt;Ruby&lt;/a&gt; and its package manager &lt;a href=&quot;https://rubygems.org/&quot;&gt;RubyGems&lt;/a&gt; installed. Open up terminal (assuming you are running your app in Linux or Mac) and type in following command:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;  sudo gem install guard guard-livereload
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Enter your password you normally use when you log in to your machine (the characters shouldn&amp;#39;t appear when typing). Then in your project&amp;#39;s root folder, create a configuration file called Guardfile:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;guard&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;livereload&#39;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;watch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;%r{.+&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\.&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;(css|js|ejs|html)}&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This Guardfile essentially watches for changes in any css, js, ejs and html files in our project folder.&lt;/p&gt;
+
+&lt;p&gt;Now, assuming you&amp;#39;re using Chrome for development, install Chrome plugin &lt;a href=&quot;https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei&quot;&gt;LiveReload&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Then open Chrome to your locally hosted webpage and click on the plugin to connect to the guard server. You should be able to see a message similar to this in the Terminal.&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;1] guard&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;main&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;&amp;gt; 15:16:08 - INFO - Browser connected.
+15:16:17 - INFO - Reloading browser: client/components/results/results.html
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Now everytime you change any client file in your project, the browser will automatically reload. However, at this point, the browser only reloads due to changes in client files but we haven&amp;#39;t figured out a way to restart the server once any file changes.&lt;/p&gt;
+
+&lt;p&gt;If you&amp;#39;re using &lt;a href=&quot;https://nodejs.org/&quot;&gt;Node.js&lt;/a&gt; as your backend, the module &lt;code class=&#39;inline-code&#39;&gt; nodemon &lt;/code&gt;  will take care of that problem for you.&lt;/p&gt;
+
+&lt;p&gt;To install nodemon, you need package manager npm.&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;sudo npm install -g nodemon
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;From now on, instead of (re)starting your server file after changes using something like &lt;code class=&#39;inline-code&#39;&gt; node server.js &lt;/code&gt;, you can run it once like this:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;nodemon server.js
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Now, edit a file and watch nodemon do its magic. Now when something changes, both the browser and the server will restart.&lt;/p&gt;
+
+&lt;p&gt;At this point, we can consider ourselves done but it&amp;#39;d be nice to restart both the browser and the server at the same time. For the browser to detect when a server has restarted, we can make a change to a dummy log file whenever a server restarts and make guard watch changes to that file. In the code that creates the server, add fs writeFile function to write to a restart.log file. That way, everytime the server restarts, the fs module will update the restart.log file. Guard will detect this change and refresh browser as well. Neat trick huh.&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;server&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;createServer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;server&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;listen&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;port&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Server running on &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;port&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// make sure to require fs module&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;fs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;writeFile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;__dirname&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;/restart.log&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;restart&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;err&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;err&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;err&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Server restart logged at restart.log file&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Make the following change in Guardfile&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;guard&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;livereload&#39;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;watch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;%r{.+&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\.&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;(css|js|ejs|html)}&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;# watch the server restart&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;watch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;%r{restart.log}&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Well, that&amp;#39;s it. I hope I&amp;#39;ve made your web development life much easier. I know mine definitely has.&lt;/p&gt;
+
+&lt;p&gt;Credit: I didn&amp;#39;t come up with this method. I basically learn this from &lt;a href=&quot;https://vickev.com/#!/article/auto-refresh-your-browser-when-saving-files-or-restarting-node-js&quot;&gt;this blog post&lt;/a&gt;.  &lt;/p&gt;
+</description>
+        <pubDate>Thu, 23 Jul 2015 10:23:00 -0400</pubDate>
+        <link>blog url//programming/webdev/tricks/2015/07/23/live-reload-trick.html</link>
+        <guid isPermaLink="true">blog url//programming/webdev/tricks/2015/07/23/live-reload-trick.html</guid>
+        
+        
+        <category>programming</category>
+        
+        <category>webdev</category>
+        
+        <category>tricks</category>
+        
+      </item>
+    
+      <item>
+        <title>On pair programming</title>
+        <description>&lt;p&gt;While I have heard of such term before starting Hack Reactor, I haven&amp;#39;t experienced first hand what pair programming is like. Well, 2 weeks in, I&amp;#39;ve had plenty of pair programming experiences. And here are my thoughts on the process.&lt;/p&gt;
+
+&lt;p&gt;To those unfamiliar with how pair programming works, let me explain. There are quite a few paradigms about how to do this but the basic one is the driver-navigator paradigm. In this, one person, who is the &amp;quot;driver&amp;quot;, is in charge of actually typing out code. This person only needs to be concerned with syntax and logic. The other, who is the &amp;quot;navigator&amp;quot;, doesn&amp;#39;t actually do any typing, but instead has to be aware of the bigger picture and is in charge of translating ambiguous goals into small chunks of viable objectives that can be coded. In addition, this person needs to point out any mistakes the &amp;quot;driver&amp;quot; may have. Frequently, the two programmers can switch roles to ensure balance. This division of labor ensures that each programmer can perform his/her best when focusing on his or her specific task of being a driver or navigator. This combined effort will net better result, i.e. fewer bugs, more diverse solutions to a given problem, than when two programmers work independently on the same project. Or at least advocates of this programming method say so.&lt;/p&gt;
+
+&lt;p&gt;Now, does this actually work in practice? At times, I admit that I felt my productivity was significantly reduced. As interested as I am in seeing how others approach a particular problem, I always like to do things at my own pace. Also, in some pair programming experiences, I often notice since I&amp;#39;m usually the laid back type, I often clash with a pair partner who is more adamant. For instance, when I navigate, I often find myself not being able to effectively jump in and guide the driver since he/she is so determined to not let others guide and to only dictate their programming workflow as if he/she is the sole developer. On the other hand, when we switched roles, I, as the driver, often feel forced to take my hands of the keyboard and (let) the navigator &amp;quot;take the wheel&amp;quot;. Of course, not all my pair programming experiences ended up this way. I find that with some partners I am often able to perform better than I&amp;#39;m soloing. I find myself catching bugs that I would never have caught when soloing. But that only happens when both my partner and I are of the same relative frequency on the personality spectrum. Besides improved programming design, I also get a chance to develop learning how to verbally communicate complex ideas as well as work out differences in opinions in attacking a problem, which is a very important part of my development as a software engineer. An additional benefit is that when I verbally express my line of thinking to another, I also get a chance to examine my assumption about how my code works and have a better picture when something in my code doesn&amp;#39;t perform as expected. This process is similar to how &lt;a href=&quot;https://en.wikipedia.org/wiki/Rubber_duck_debugging&quot;&gt;rubber duck debugging&lt;/a&gt; works. By talking aloud to a rubber duck about how I want a piece of code to behave and what objective I&amp;#39;m trying to accomplish as well as assumptions that I make, it gradually becomes clear what the error in my line of thinking is and that way I can begin to fix it.  &lt;/p&gt;
+
+&lt;p&gt;Overall, even though at times I thought my productivity slipped, the gains from pair programming were really worth any discomfort the programmer may feel. However, I think depending on the team dynamics and individual characteristics, not all programmers will benefit from this method of programming.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 23 May 2015 20:21:00 -0400</pubDate>
+        <link>blog url//programming/hackreactor/2015/05/23/on-pair-programming.html</link>
+        <guid isPermaLink="true">blog url//programming/hackreactor/2015/05/23/on-pair-programming.html</guid>
+        
+        
+        <category>programming</category>
+        
+        <category>hackreactor</category>
+        
+      </item>
+    
+      <item>
+        <title>Difference between __proto__ and prototype in javascript</title>
+        <description>&lt;p&gt;During my first week at HackReactor, a programming bootcamp focused on Javascript, I learned many important concepts that go far beyond the syntax of the language. At first glance, there are very few syntactical differences between Javascript and other object-oriented languages like Java. But dig deeper and you&amp;#39;ll see that Javascript has its own little quirks which are really fascinating and worth mulling over. Well, if you are a programming language geek like me at least.&lt;/p&gt;
+
+&lt;p&gt;One of those quirks that I find most interesting, besides from the fact that you can pass in functions as arguments in higher order functions, making Javascript a functional programming language (&lt;em&gt;gasp&lt;/em&gt; - I&amp;#39;ll have a blog post on that later), is the difference between a function object&amp;#39;s prototype and its prototype property.&lt;/p&gt;
+
+&lt;p&gt;But first, what the heck is a prototype?&lt;/p&gt;
+
+&lt;p&gt;Well, it&amp;#39;s Javascript&amp;#39;s own take on inheritance, a crucial feature in object-oriented programming. It&amp;#39;s helpful for someone with Java background like me to think of it as a &amp;quot;parent&amp;quot; class, or a super class, that a class can inherit properties and methods from. Consider the following snippet of code.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Car&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;loc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;obj&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Object&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;create&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Car&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;obj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;loc&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;loc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;obj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;Car&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;move&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;loc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;myCar&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Car&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;myCar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;move&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;            &lt;span class=&quot;c1&quot;&gt;// delegate failed method lookup to its prototype&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;myCar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;loc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;   &lt;span class=&quot;c1&quot;&gt;// log 4.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;In the code block above, the object returned from the Car constructor function has as its prototype Car.prototype. This is potentially confusing since to many Javascript newcomers, Car.prototype seems to be the Car function&amp;#39;s prototype. This is wrong.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nb&quot;&gt;Function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;isPrototypeOf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Car&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// return true&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;Car&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;isPrototypeOf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Car&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;      &lt;span class=&quot;c1&quot;&gt;// return false&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;In other words, you should think of Car.prototype as only a method storage property for the object returned by the function object. Javascript just happens to allow functions to have prototype property as default. The actual prototype of any Javascript function, referenced by __proto__, should be Function.prototype, whose prototype in turn is Object.prototype.&lt;/p&gt;
+
+&lt;p&gt;TL;DR: Here is a helpful diagram summarizing my point&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/js-prototype-differences.png&quot; alt=&quot;Difference between prototype and __proto__&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Figure 1.&lt;/strong&gt; Difference between prototype and __proto__&lt;/p&gt;
+</description>
+        <pubDate>Sun, 17 May 2015 17:00:00 -0400</pubDate>
+        <link>blog url//javascript/hackreactor/2015/05/17/difference-between-__proto__-and-prototype-javascript.html</link>
+        <guid isPermaLink="true">blog url//javascript/hackreactor/2015/05/17/difference-between-__proto__-and-prototype-javascript.html</guid>
+        
+        
+        <category>javascript</category>
+        
+        <category>hackreactor</category>
+        
+      </item>
+    
+      <item>
+        <title>First blog post!</title>
+        <description>&lt;p&gt;After many failed attempts at blogging, today I finally commit myself to creating one, using Jekyll. As you can see, this is very minimal (note: not the Medium type of beautiful minimalistic design). I&amp;#39;ll work on redesigning the blog using a more beautiful Jekyll template in some distant future. But this&amp;#39;ll do. So expect to read my musings on random things: CS, programming, hackathons, my dream of being a software developer in Silicon Valley, college stuff, startup ideas, etc.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 06 Mar 2015 21:42:00 -0500</pubDate>
+        <link>blog url//2015/03/06/first-blog-post.html</link>
+        <guid isPermaLink="true">blog url//2015/03/06/first-blog-post.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

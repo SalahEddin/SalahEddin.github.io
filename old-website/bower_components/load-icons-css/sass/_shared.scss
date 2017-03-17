@@ -1,0 +1,34 @@
+/**
+*
+* Set $your-color here
+*
+**/
+$red: #E50C4E;
+$yellow: #FDDC32;
+$blue: #104CE5;
+$white: #FFF;
+$green: #64FD39;
+$orange: #FD7703;
+$purple: #9535FD;
+$pink: #FD4AAA;
+$turquoise: #22FDB9;
+
+/**
+*
+* Set $color to $your-color, default is $red
+*
+**/
+
+$color: $red;
+
+
+/**
+*
+* MIXINS
+*
+**/
+
+@mixin animate($style, $duration, $iteration, $delay, $function) {
+  animation: $style $duration $iteration $delay $function;
+}
+

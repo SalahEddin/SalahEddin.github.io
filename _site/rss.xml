@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+  <channel>
+    <title>Thomas Lam</title>
+    <link>blog url</link>
+    <description>Math ∧ Programming ∧ Life</description>
+    <pubDate>Sun, 22 Nov 2015 18:05:00 -0500</pubDate>
+    <item>
+      <title>My first technical internship interview experience</title>
+      <link>blog url/programming/internship/career/2015/11/22/my-first-technical-interview.html</link>
+      <pubDate>Sun, 22 Nov 2015 18:05:00 -0500</pubDate>
+      <dc:date>2015-11-22T18:05:00-05:00</dc:date>
+    </item>
+    <item>
+      <title>Haskell - functional fun</title>
+      <link>blog url/haskell/programming/2015/10/18/Haskell-functional-fun.html</link>
+      <pubDate>Sun, 18 Oct 2015 12:30:00 -0400</pubDate>
+      <dc:date>2015-10-18T12:30:00-04:00</dc:date>
+    </item>
+    <item>
+      <title>My struggle with Vim</title>
+      <link>blog url/2015/10/11/my-struggle-with-Vim.html</link>
+      <pubDate>Sun, 11 Oct 2015 19:42:00 -0400</pubDate>
+      <dc:date>2015-10-11T19:42:00-04:00</dc:date>
+    </item>
+    <item>
+      <title>Live reload with Guard and nodemon</title>
+      <link>blog url/programming/webdev/tricks/2015/07/23/live-reload-trick.html</link>
+      <pubDate>Thu, 23 Jul 2015 10:23:00 -0400</pubDate>
+      <dc:date>2015-07-23T10:23:00-04:00</dc:date>
+    </item>
+    <item>
+      <title>On pair programming</title>
+      <link>blog url/programming/hackreactor/2015/05/23/on-pair-programming.html</link>
+      <pubDate>Sat, 23 May 2015 20:21:00 -0400</pubDate>
+      <dc:date>2015-05-23T20:21:00-04:00</dc:date>
+    </item>
+    <item>
+      <title>Difference between __proto__ and prototype in javascript</title>
+      <link>blog url/javascript/hackreactor/2015/05/17/difference-between-__proto__-and-prototype-javascript.html</link>
+      <pubDate>Sun, 17 May 2015 17:00:00 -0400</pubDate>
+      <dc:date>2015-05-17T17:00:00-04:00</dc:date>
+    </item>
+    <item>
+      <title>First blog post!</title>
+      <link>blog url/2015/03/06/first-blog-post.html</link>
+      <pubDate>Fri, 06 Mar 2015 21:42:00 -0500</pubDate>
+      <dc:date>2015-03-06T21:42:00-05:00</dc:date>
+    </item>
+    <dc:date>2015-11-22T18:05:00-05:00</dc:date>
+  </channel>
+</rss>

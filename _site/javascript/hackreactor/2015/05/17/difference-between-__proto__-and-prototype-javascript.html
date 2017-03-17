@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>Thomas Lam - Math ∧ Programming ∧ Life</title>
+    <meta name="description" content="Your New Jekyll Site, Blogging about stuffs" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="/assets/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+    <!-- Customisation  -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css" />
+
+</head>
+<body class="home-template">
+
+    <header class="main-header post-head no-cover">
+    <nav class="main-nav  clearfix">
+        <a class="back-button icon-arrow-left" href="/blog">Main</a>
+    </nav>
+</header>
+
+<main class="content" role="main">
+
+    <article class="post">
+
+        <header class="post-header">
+            <h1 class="post-title">Difference between __proto__ and prototype in javascript</h1>
+            <section class="post-meta">                
+                <time class="post-date" datetime="2015-05-17">17 May 2015</time>
+                 
+                    on javascript and hackreactor 
+                
+            </section>
+        </header>
+
+<!--         <header class="post-header">
+            <a id="blog-logo" href="blog url">
+                
+                    <span class="blog-title">Thomas Lam</span>
+                 
+            </a>
+        </header> -->
+        
+        <!-- <span class="post-meta">
+            <time datetime="2015-05-17">17 May 2015</time>
+             
+                on javascript and hackreactor 
+            
+        </span> -->
+
+        <!-- <h1 class="post-title">Difference between __proto__ and prototype in javascript</h1> -->
+
+        <section class="post-content">
+            <p>During my first week at HackReactor, a programming bootcamp focused on Javascript, I learned many important concepts that go far beyond the syntax of the language. At first glance, there are very few syntactical differences between Javascript and other object-oriented languages like Java. But dig deeper and you&#39;ll see that Javascript has its own little quirks which are really fascinating and worth mulling over. Well, if you are a programming language geek like me at least.</p>
+
+<p>One of those quirks that I find most interesting, besides from the fact that you can pass in functions as arguments in higher order functions, making Javascript a functional programming language (<em>gasp</em> - I&#39;ll have a blog post on that later), is the difference between a function object&#39;s prototype and its prototype property.</p>
+
+<p>But first, what the heck is a prototype?</p>
+
+<p>Well, it&#39;s Javascript&#39;s own take on inheritance, a crucial feature in object-oriented programming. It&#39;s helpful for someone with Java background like me to think of it as a &quot;parent&quot; class, or a super class, that a class can inherit properties and methods from. Consider the following snippet of code.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">Car</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">loc</span><span class="p">)</span> <span class="p">{</span>
+  <span class="kd">var</span> <span class="nx">obj</span> <span class="o">=</span> <span class="nb">Object</span><span class="p">.</span><span class="nx">create</span><span class="p">(</span><span class="nx">Car</span><span class="p">.</span><span class="nx">prototype</span><span class="p">);</span>
+  <span class="nx">obj</span><span class="p">.</span><span class="nx">loc</span> <span class="o">=</span> <span class="nx">loc</span><span class="p">;</span>
+  <span class="k">return</span> <span class="nx">obj</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nx">Car</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">move</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span> <span class="k">this</span><span class="p">.</span><span class="nx">loc</span><span class="o">++</span><span class="p">;</span> <span class="p">};</span>
+
+<span class="kd">var</span> <span class="nx">myCar</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Car</span><span class="p">(</span><span class="mi">3</span><span class="p">);</span>
+<span class="nx">myCar</span><span class="p">.</span><span class="nx">move</span><span class="p">();</span>            <span class="c1">// delegate failed method lookup to its prototype</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">myCar</span><span class="p">.</span><span class="nx">loc</span><span class="p">)</span>   <span class="c1">// log 4.</span></code></pre></figure>
+
+<p>In the code block above, the object returned from the Car constructor function has as its prototype Car.prototype. This is potentially confusing since to many Javascript newcomers, Car.prototype seems to be the Car function&#39;s prototype. This is wrong.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nb">Function</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">isPrototypeOf</span><span class="p">(</span><span class="nx">Car</span><span class="p">)</span> <span class="c1">// return true</span>
+<span class="nx">Car</span><span class="p">.</span><span class="nx">prototype</span><span class="p">.</span><span class="nx">isPrototypeOf</span><span class="p">(</span><span class="nx">Car</span><span class="p">)</span>      <span class="c1">// return false</span></code></pre></figure>
+
+<p>In other words, you should think of Car.prototype as only a method storage property for the object returned by the function object. Javascript just happens to allow functions to have prototype property as default. The actual prototype of any Javascript function, referenced by __proto__, should be Function.prototype, whose prototype in turn is Object.prototype.</p>
+
+<p>TL;DR: Here is a helpful diagram summarizing my point</p>
+
+<p><img src="/assets/images/js-prototype-differences.png" alt="Difference between prototype and __proto__"></p>
+
+<p><strong>Figure 1.</strong> Difference between prototype and __proto__</p>
+
+        </section>
+
+        
+
+        <footer class="post-footer">
+            <!-- If we want to display author's name and bio -->
+            
+                <figure class="author-image">
+                    <a class="img" href="/" style="background-image: url(/assets/images/profile-img.png)">
+                    <span class="hidden">Thomas Lam's Picture</span></a>
+                </figure>
+                <section class="author">
+                    <!-- Author Name -->
+                    <h4> Thomas Lam </h4>
+                    <!-- Author Bio -->
+                    <p> 
+                        Here goes the author description. You might want to place some links too in here
+                    </p>
+                </section>                
+            
+
+            <!-- Share links section -->
+            <section class="share">
+    <h4>Share this post</h4>
+    <a class="icon-twitter" href="http://twitter.com/share?text=Difference between __proto__ and prototype in javascript&amp;url=http://yourblog-domain.com/javascript/hackreactor/2015/05/17/difference-between-__proto__-and-prototype-javascript.html"
+        onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+        <span class="hidden">Twitter</span>
+    </a>
+    <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://yourblog-domain.com/javascript/hackreactor/2015/05/17/difference-between-__proto__-and-prototype-javascript.html"
+        onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+        <span class="hidden">Facebook</span>
+    </a>
+    <a class="icon-google-plus" href="https://plus.google.com/share?url=http://yourblog-domain.com/javascript/hackreactor/2015/05/17/difference-between-__proto__-and-prototype-javascript.html"
+       onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+        <span class="hidden">Google+</span>
+    </a>
+</section>
+            
+            <!-- Disqus comments -->
+            <!---->
+            
+        </footer>
+
+    </article>
+
+</main>
+
+    <footer class="site-footer clearfix">
+      <section class="copyright">
+        <a href="/">Thomas Lam</a> &copy; 
+               &bull; All rights reserved.
+      </section>
+      <section class="poweredby">Made with Jekyll using 
+        <a href="http://github.com/rosario/kasper">Kasper theme</a>
+      </section>
+    </footer>
+    
+    <script type="text/javascript" src="/assets/js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="/assets/js/index.js"></script>
+
+    <!-- Google Analytics Tracking code -->
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-XXXXXXXX-X']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>   
+</body>
+</html>

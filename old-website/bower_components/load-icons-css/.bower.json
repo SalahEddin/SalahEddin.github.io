@@ -1,0 +1,37 @@
+{
+  "name": "load-icons-css",
+  "homepage": "http://thomaslam.rocks/bower_components/load-icons-css/index.html",
+  "authors": [
+    "Thomas Lam <tuananhlam95@gmail.com>"
+  ],
+  "description": "a collection of free pure css loading icons",
+  "main": "index.html",
+  "keywords": [
+    "loading",
+    "icons",
+    "css",
+    "pure",
+    "css3",
+    "loaders",
+    "spinners",
+    "animations"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "790665f292",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "790665f29223178c91e197a66bb4516ea8c712a7"
+  },
+  "_source": "git://github.com/thomaslam/load-icons.css.git",
+  "_target": "*",
+  "_originalSource": "load-icons-css",
+  "_direct": true
+}
