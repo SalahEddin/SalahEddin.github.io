@@ -10,3 +10,7 @@ To run and deploy my Hugo site, follow these steps:
 1. Start the Hugo server: `hugo server -D`
 2. Open your browser and visit `http://localhost:1313` to view the site locally.
 3. To deploy the site, run the following command: `hugo deploy`
+
+# PaperMod Theme
+
+[Options](https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-features/#regular-mode-default-mode)
