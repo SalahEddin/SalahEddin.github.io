@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/12ba95cf-d4d4-4e6c-ba56-6e3019cb5499/deploy-status)](https://app.netlify.com/sites/salahalshaal/deploys)
 
 # Page Purpose
 
@@ -9,4 +10,4 @@ To run and deploy my Hugo site, follow these steps:
 
 1. Start the Hugo server: `hugo server -D`
 2. Open your browser and visit `http://localhost:1313` to view the site locally.
-3. To deploy the site, run the following command: `hugo deploy`
+3. To deploy the site with netlify, simply push your changes to the `master` branch. Netlify will automatically deploy the changes.
