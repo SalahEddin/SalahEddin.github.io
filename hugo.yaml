@@ -1,0 +1,31 @@
+baseURL: https://salaheddin.github.io/
+languageCode: en-us
+title: Delightful Product Narratives ✨
+theme: ["PaperMod"]
+
+params:
+  author: Salah Eddin Alshaal
+  defaultTheme: auto
+  
+  profileMode:
+    enabled: true
+    title: "I hope you're having a delightful day! 🌞"
+    subtitle: "I'm a product alchemist who transmutes world problems with magical team dynamics and positive storytelling."
+    imageUrl: "pp.jpeg" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+    buttons:
+      # - name: About
+      #   url: "/about"
+      - name: Resume
+        url: "Product Manager.pdf"
+      - name: Get in touch
+        url: "mailto:portfolioalias.acutely430@passmail.net"
+
+  socialIcons: # optional
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/salshaal/"
+    - name: "github"
+      url: "https://github.com/SalahEddin"
+    - name: "mastodon"
+      url: "https://mastodon.world/@baklava_daddy"
