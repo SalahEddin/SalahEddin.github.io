@@ -10,15 +10,15 @@ params:
   profileMode:
     enabled: true
     title: "I hope you're having a delightful day! 🌞"
-    subtitle: "I'm a product alchemist who transmutes world problems with magical team dynamics and positive storytelling."
-    imageUrl: "pp.jpeg" # optional
+    subtitle: "I'm a product alchemist who transmutes world problems with magical team dynamics, technical insights and positive storytelling."
+    imageUrl: "profile.jpeg" # optional
     imageWidth: 120 # custom size
     imageHeight: 120 # custom size
     buttons:
       # - name: About
       #   url: "/about"
       - name: Resume
-        url: "Product Manager.pdf"
+        url: "Product_Manager.pdf"
       - name: Get in touch
         url: "mailto:portfolioalias.acutely430@passmail.net"
 
