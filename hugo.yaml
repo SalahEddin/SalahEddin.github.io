@@ -5,6 +5,8 @@ theme: ["PaperMod"]
 
 params:
   author: Salah Eddin Alshaal
+  description: "Personal website of Salah Eddin Alshaal, Head of Product."
+  images: ["profile.jpeg"]
   defaultTheme: auto
   hideFooter: true
   
